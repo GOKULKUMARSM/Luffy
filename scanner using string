@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class Main
+{
+    public static void main(String[]args)
+    {
+        System.out.println("enter the value");
+        Scanner scan = new Scanner(System.in);
+        String num = scan.nextLine();
+        System.out.println(num);
+    }
+}
