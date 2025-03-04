@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class Main
+{
+    public static void main(String[]args){
+        System.out.println("enter the numbers");
+        Scanner scan = new Scanner(System.in);
+        int A = scan.nextInt();
+        int B = scan.nextInt();
+        int C = scan.nextInt();
+        if(A>=B && A>=C)
+        {
+           System.out.println("A is greater"); 
+        }
+        else if(B>=A && B>=C)
+        {
+            System.out.println("B is greater");
+        }
+        else 
+        {
+            System.out.println("C is greater");
+        }
+    }
+}
