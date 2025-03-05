@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class Main{
+    public static void main(String[]args){
+    Scanner scan = new Scanner(System.in);
+    System.out.print("Enter the size:");
+    int size = scan.nextInt();
+    if(size==29){
+        System.out.println("Small");
+    }
+    else if(size==30){
+        System.out.println("Medium");
+    }
+    else if(size==38){
+        System.out.println("Large");
+    }
+    else if(size==42){
+        System.out.println("X-Large");
+    }
+    else 
+    {
+        System.out.println("over sized");
+    }
+}
+}
