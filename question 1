@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class Main{
+    public static void main(String[]args){
+        Scanner scan = new Scanner(System.in);
+        int intiger = scan.nextInt();
+        String word = scan.nextLine();
+        char letter = scan.nextLine().charAt(0);
+        System.out.println(intiger);
+        System.out.println(word);
+        System.out.println(letter);
+    }
+}
