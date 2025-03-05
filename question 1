@@ -3,10 +3,11 @@ class Main{
     public static void main(String[]args){
         Scanner scan = new Scanner(System.in);
         int intiger = scan.nextInt();
+        scan.nextLine();
         String word = scan.nextLine();
         char letter = scan.nextLine().charAt(0);
-        System.out.println(intiger);
-        System.out.println(word);
-        System.out.println(letter);
+        System.out.print(intiger);
+        System.out.print(word);
+        System.out.print(letter);
     }
 }
