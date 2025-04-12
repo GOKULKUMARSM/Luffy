@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class Main{
+    public static void main(String[]args){
+        Scanner scan = new Scanner(System.in);
+        System.out.println("what is your name");
+        String name = scan.nextLine();
+        System.out.println("what is your ratting");
+        int rating = scan.nextShort();
+        scan.nextLine();
+        System.out.println("enter the mail");
+        String Mail = scan.nextLine();
+        System.out.println("hi"+ name);
+        System.out.println("your ratting is"+rating);
+        System.out.println("your mail is"+ Mail);
+    }
+}
